@@ -28,8 +28,8 @@ struct GeneralView: View {
                 }
                 .tabItem {
                     Text("Library")
-                    Image("note")
-                        .renderingMode(.template)
+                    Image(systemName:"note")
+                        
                 }
 
                 Text("RadioView")

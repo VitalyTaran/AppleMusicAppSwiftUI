@@ -14,7 +14,7 @@ struct ListView: View {
     @Environment(\.dismiss) var dismiss
 
     var body: some View {
-        List(selection: $multiSelection) {
+        List(selection: $multiSelection){
             ForEach(itemsList, id: \.self.id) { item in
                 ListCell(item: item)
             }
@@ -22,6 +22,7 @@ struct ListView: View {
         }
         .environment(\.editMode, .constant(.active))
         .listStyle(.plain)
+        .accentColor(.red)
         .toolbar {
             NavigationLink {
             } label: {

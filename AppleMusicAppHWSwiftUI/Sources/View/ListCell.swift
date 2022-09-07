@@ -16,7 +16,7 @@ struct ListCell: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 20, height: 20)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.red)
                 .padding([.trailing], 6)
             Text(item.name)
                 .font(.title3)

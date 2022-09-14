@@ -18,9 +18,11 @@ struct GeneralView: View {
             TabView {
                 NavigationView {
                     LibraryView()
+                        .navigationTitle("Library")
                         .toolbar {
                             NavigationLink {
                                 ListView()
+                                    .navigationTitle("Library")
                             } label: {
                                 Text("Edit")
                             }
@@ -28,11 +30,15 @@ struct GeneralView: View {
                 }
                 .tabItem {
                     Text("Library")
-                    Image(systemName:"note")
-                        
+                    Image("note")
+                        .renderingMode(.template)
                 }
 
-                Text("RadioView")
+                NavigationView {
+                RadioView()
+                        .navigationTitle("Radio")
+                }
+
                     .tabItem {
                         Text("Radio")
                         Image(systemName:"dot.radiowaves.left.and.right")
@@ -45,14 +51,12 @@ struct GeneralView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                     }
-
             }
         }
         .safeAreaInset(edge: .bottom) {
             PlayerView()
                 .offset(y: -45)
         }
-
     }
 }
 

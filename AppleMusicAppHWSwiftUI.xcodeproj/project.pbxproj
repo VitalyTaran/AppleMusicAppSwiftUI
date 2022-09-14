@@ -16,6 +16,12 @@
 		23B5D2DF28C8C33C00308EF3 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5D2DE28C8C33C00308EF3 /* ListCell.swift */; };
 		23B5D2E128C8C36000308EF3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5D2E028C8C35F00308EF3 /* ListView.swift */; };
 		23B5D2E328C8C39300308EF3 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5D2E228C8C39300308EF3 /* ListModel.swift */; };
+		23E0002528D203A500EF8344 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0002428D203A500EF8344 /* RadioView.swift */; };
+		23E0002728D203DB00EF8344 /* RadioRectangleStantionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0002628D203DB00EF8344 /* RadioRectangleStantionView.swift */; };
+		23E0002928D2040000EF8344 /* RadioSingleStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0002828D2040000EF8344 /* RadioSingleStationView.swift */; };
+		23E0002D28D2047E00EF8344 /* PlayerButtonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0002C28D2047E00EF8344 /* PlayerButtonImage.swift */; };
+		23E0002F28D2049A00EF8344 /* PlayerCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0002E28D2049A00EF8344 /* PlayerCoverView.swift */; };
+		23E0003228D204D500EF8344 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E0003128D204D500EF8344 /* RadioModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +29,18 @@
 		23B5D2C228C8BE4500308EF3 /* AppleMusicAppHWSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicAppHWSwiftUIApp.swift; sourceTree = "<group>"; };
 		23B5D2C628C8BE4600308EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23B5D2C928C8BE4600308EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		23B5D2D828C8BF4000308EF3 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GeneralView.swift; path = ../../../../GeneralView.swift; sourceTree = "<group>"; };
-		23B5D2DA28C8BF6C00308EF3 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LibraryView.swift; path = ../../../../LibraryView.swift; sourceTree = "<group>"; };
-		23B5D2DC28C8C30800308EF3 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerView.swift; path = ../../../../PlayerView.swift; sourceTree = "<group>"; };
-		23B5D2DE28C8C33C00308EF3 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListCell.swift; path = ../../../../ListCell.swift; sourceTree = "<group>"; };
-		23B5D2E028C8C35F00308EF3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = ../../../../ListView.swift; sourceTree = "<group>"; };
-		23B5D2E228C8C39300308EF3 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListModel.swift; path = ../../../../ListModel.swift; sourceTree = "<group>"; };
+		23B5D2D828C8BF4000308EF3 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		23B5D2DA28C8BF6C00308EF3 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		23B5D2DC28C8C30800308EF3 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		23B5D2DE28C8C33C00308EF3 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		23B5D2E028C8C35F00308EF3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		23B5D2E228C8C39300308EF3 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		23E0002428D203A500EF8344 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		23E0002628D203DB00EF8344 /* RadioRectangleStantionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioRectangleStantionView.swift; sourceTree = "<group>"; };
+		23E0002828D2040000EF8344 /* RadioSingleStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSingleStationView.swift; sourceTree = "<group>"; };
+		23E0002C28D2047E00EF8344 /* PlayerButtonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButtonImage.swift; sourceTree = "<group>"; };
+		23E0002E28D2049A00EF8344 /* PlayerCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCoverView.swift; sourceTree = "<group>"; };
+		23E0003128D204D500EF8344 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,7 @@
 		23B5D2D428C8BE7800308EF3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				23E0003028D204B300EF8344 /* Model */,
 				23B5D2D628C8BE9400308EF3 /* View */,
 				23B5D2D528C8BE8A00308EF3 /* App */,
 			);
@@ -95,12 +108,11 @@
 		23B5D2D628C8BE9400308EF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				23E0002B28D2045800EF8344 /* PlayerView */,
+				23E0002A28D2043200EF8344 /* ListView */,
 				23B5D2D828C8BF4000308EF3 /* GeneralView.swift */,
+				23E0002328D2038A00EF8344 /* RadioView */,
 				23B5D2DA28C8BF6C00308EF3 /* LibraryView.swift */,
-				23B5D2DC28C8C30800308EF3 /* PlayerView.swift */,
-				23B5D2DE28C8C33C00308EF3 /* ListCell.swift */,
-				23B5D2E028C8C35F00308EF3 /* ListView.swift */,
-				23B5D2E228C8C39300308EF3 /* ListModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +124,44 @@
 				23B5D2C628C8BE4600308EF3 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		23E0002328D2038A00EF8344 /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				23E0002428D203A500EF8344 /* RadioView.swift */,
+				23E0002628D203DB00EF8344 /* RadioRectangleStantionView.swift */,
+				23E0002828D2040000EF8344 /* RadioSingleStationView.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		23E0002A28D2043200EF8344 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				23B5D2DE28C8C33C00308EF3 /* ListCell.swift */,
+				23B5D2E028C8C35F00308EF3 /* ListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		23E0002B28D2045800EF8344 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				23B5D2DC28C8C30800308EF3 /* PlayerView.swift */,
+				23E0002C28D2047E00EF8344 /* PlayerButtonImage.swift */,
+				23E0002E28D2049A00EF8344 /* PlayerCoverView.swift */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		23E0003028D204B300EF8344 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23B5D2E228C8C39300308EF3 /* ListModel.swift */,
+				23E0003128D204D500EF8344 /* RadioModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,12 +235,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B5D2D928C8BF4000308EF3 /* GeneralView.swift in Sources */,
+				23E0002928D2040000EF8344 /* RadioSingleStationView.swift in Sources */,
+				23E0002D28D2047E00EF8344 /* PlayerButtonImage.swift in Sources */,
 				23B5D2DB28C8BF6C00308EF3 /* LibraryView.swift in Sources */,
 				23B5D2E128C8C36000308EF3 /* ListView.swift in Sources */,
 				23B5D2C328C8BE4500308EF3 /* AppleMusicAppHWSwiftUIApp.swift in Sources */,
+				23E0002528D203A500EF8344 /* RadioView.swift in Sources */,
 				23B5D2E328C8C39300308EF3 /* ListModel.swift in Sources */,
 				23B5D2DF28C8C33C00308EF3 /* ListCell.swift in Sources */,
+				23E0002728D203DB00EF8344 /* RadioRectangleStantionView.swift in Sources */,
+				23E0003228D204D500EF8344 /* RadioModel.swift in Sources */,
 				23B5D2DD28C8C30800308EF3 /* PlayerView.swift in Sources */,
+				23E0002F28D2049A00EF8344 /* PlayerCoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

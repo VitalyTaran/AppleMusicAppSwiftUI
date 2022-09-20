@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct AppleMusicAppHWSwiftUIApp: App {
+struct AppleMusicAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GeneralView()
         }
     }
 }

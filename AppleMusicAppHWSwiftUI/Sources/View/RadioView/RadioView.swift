@@ -19,7 +19,7 @@ struct RadioView: View {
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHGrid(rows: rows) {
                         ForEach(radioCovers) { cover in
-                            RadioRectangleStantionView(covers: cover)
+                            RadioRectangleStantionView(cover: cover)
                         }
                     }
                 }
